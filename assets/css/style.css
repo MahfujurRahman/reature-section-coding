@@ -1,0 +1,111 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+.feature-bg-1 .feature-bg{
+    background-image: url(../img/office.jpg);
+}
+.feature-bg-2 .feature-bg{
+    background-image: url(../img/0517-GQ-MOOF04-01-big.jpg);
+}
+.feature-bg-3 .feature-bg{
+    background-image: url(../img/adobe-office.jpg);
+}
+.feature-bg-4 .feature-bg{
+    background-image: url(../img/Archetypes-at-the-Office.jpg);
+}
+.feature-no{
+    font-family: 'Merienda', cursive;
+}
+.feature {
+    margin-top:  60px;
+}
+
+.singel-feature-item {
+    position:  relative;
+    z-index:  1;
+}
+
+.feature-bg {
+    position:  absolute;
+    left:  25%;
+    top: 50px;
+    content:  "";
+    height:  100%;
+    width:  50%;
+    background-position: center;
+    background-size: cover;
+    background-color: #c2c2c2;
+}
+.singel-feature {
+    background-color:  #fff;
+    padding:  40px;
+    box-shadow:  0 0 10px #ddd;
+}
+
+.feature-no {
+    font-size: 30px;
+    font-weight:  700;
+    opacity:  .3;
+    position:  relative;
+}
+
+.feature-no:after {
+    position:  absolute;
+    height: 100px;
+    width:  2px;
+    top: -22px;
+    left: 30px;
+    content:  "";
+    background-color: #c2c2c2;
+    transform: rotate(43deg);
+}
+
+.feature-titel {
+    padding: 25px;
+}
+
+.feature-titel h2 {
+    font-size:  23px;
+}
+
+.feature-titel p {
+    line-height:  2;
+}
+.color-1 {
+    border-bottom: 4px solid #c74855;
+}
+.color-2 {
+    border-bottom: 4px solid #fef0c1;
+}
+.color-3 {
+    border-bottom: 4px solid #00899a;
+}
+.color-4 {
+    border-bottom: 4px solid #965995;
+}
